@@ -12,7 +12,7 @@ class Formatter {
     for(let i=0; i<newArr.length; i++){
       if(exceptions.includes(newArr[i])){
          newArr2.push(newArr[i])
-       } 
+       }
        else {
          newArr2.push(this.capitalize(newArr[i]))
        }
