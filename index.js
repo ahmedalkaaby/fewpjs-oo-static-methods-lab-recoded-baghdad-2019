@@ -13,6 +13,7 @@ class Formatter {
       if(i === 0){
        newArr2.push(this.capitalize(newArr[i]));
       }
+      else{
       if(exceptions.includes(newArr[i])){
          newArr2.push(newArr[i])
        }
