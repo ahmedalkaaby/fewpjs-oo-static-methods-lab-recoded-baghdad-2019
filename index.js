@@ -10,6 +10,9 @@ class Formatter {
     let newArr=str.split(' ');
     let newArr2=[];
     for(let i=0; i<newArr.length; i++){
+      if(i === 0){
+       newArr2.push(this.capitalize(newArr[i]));
+      }
       if(exceptions.includes(newArr[i])){
          newArr2.push(newArr[i])
        }
