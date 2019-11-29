@@ -19,7 +19,7 @@ class Formatter {
        }
        else {
          newArr2.push(this.capitalize(newArr[i]))
-       }
+       }}
 }
 return newArr2.join(' ');
 }
