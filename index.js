@@ -6,7 +6,7 @@ class Formatter {
       return str.replace(/[^A-Za-z0-9 '-]/g, '')
     }
     static titleize(str){
-    let exeptions=['the','a','an','but','of','and','for','at','by','from'];
+    let exceptions=['the','a','an','but','of','and','for','at','by','from'];
     let newArr=str.split(' ');
     let newArr2=[];
     for(let i=0; i<newArr.length; i++){
